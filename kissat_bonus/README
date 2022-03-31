@@ -1,0 +1,8 @@
+Build:
+    ./starexec_build
+
+Run:
+    cd bin;
+    ./starexec_run_default <input> <drup-dir>
+    or
+    ./kissat_bonus --unsat <input>

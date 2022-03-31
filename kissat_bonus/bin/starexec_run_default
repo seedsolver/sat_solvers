@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./kissat_bonus --unsat $1 $2/proof.out

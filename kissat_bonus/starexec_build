@@ -1,0 +1,6 @@
+#!/bin/sh
+cd sources/
+make clean
+chmod a+x ./configure ./scripts/*.sh
+./configure && make
+cp build/kissat ../bin/kissat_bonus

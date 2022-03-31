@@ -1,0 +1,7 @@
+#!/bin/sh
+rm sources/*/*.o
+rm bin/lstech
+cd sources/simp
+make clean
+make rs
+cp glucose_static ../../bin/lstech_maple
